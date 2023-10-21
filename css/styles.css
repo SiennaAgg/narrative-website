@@ -11539,11 +11539,13 @@ html {
 .highlights-image {
   display: inline-block;
   width: 40%;
-  background-color: white;
+  background-color: grey;
+  float: left;
 }
 
-.highlights-text {
+.highlights-content {
   display:  inline-block;
   width: 60%;
-  background-color: white;
+  background-color: #eee;
+  float: left;
 }
