@@ -11400,8 +11400,8 @@ html {
     background: #745b57;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #1abc9c;
+    color: #593a35;
+    background: #fff;
   }
 
   #mainNav.navbar-shrink {
