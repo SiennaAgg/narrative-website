@@ -11401,7 +11401,7 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #593a35;
+    background: #1abc9c;
   }
 
   #mainNav.navbar-shrink {
@@ -11530,4 +11530,8 @@ html {
 .contactme-section .contactme-section-heading {
   font-size: 2rem;
   line-height: 0.5rem;
+}
+
+.header-bg {
+  background-color: #593a35;
 }
