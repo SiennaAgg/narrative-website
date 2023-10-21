@@ -11524,16 +11524,10 @@ html {
 }
 
 .contactme-section {
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 0.5rem;
 }
 .contactme-section .contactme-section-heading {
-  font-size: 2.25rem;
-  line-height: 2rem;
-}
-@media (min-width: 992px) {
-  .contactme-section .contactme-section-heading {
-    font-size: 3rem;
-    line-height: 2.5rem;
-  }
+  font-size: 2rem;
+  line-height: 0.5rem;
 }
