@@ -11507,3 +11507,8 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.masthead .title {
+  background-color: #eee;
+  color: #212529;
+}
