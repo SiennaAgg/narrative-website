@@ -11535,3 +11535,15 @@ html {
 .header-bg {
   background-color: #593a35;
 }
+
+.highlights-image {
+  display: inline-block;
+  width: 40%;
+  background-color: white;
+}
+
+.highlights-text {
+  display:  inline-block;
+  width: 60%;
+  background-color: white;
+}
