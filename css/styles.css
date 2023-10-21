@@ -11508,11 +11508,10 @@ html {
   background-color: #1a252f;
 }
 
-.masthead.title {
+.masthead .title {
   background-color: #6b7f90;
   color: #212529;
 }
-
 
 .blogpost {
   background-color: #338ea1;
