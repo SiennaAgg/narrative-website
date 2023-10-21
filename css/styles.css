@@ -11447,12 +11447,12 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(1.5rem + 104px);
+    padding-bottom: 1.5rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
@@ -11510,5 +11510,10 @@ html {
 
 .masthead .title {
   background-color: #eee;
+  color: #212529;
+}
+
+.page-section .blogpost {
+  background-color: #0dcaf0;
   color: #212529;
 }
