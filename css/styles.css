@@ -11397,7 +11397,7 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #5cb9e7;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -11514,6 +11514,6 @@ html {
 }
 
 .blogpost {
-  background-color: #0dcaf0;
-  color: #212529;
+  background-color: #338ea1;
+  color: white;
 }
