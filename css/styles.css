@@ -11543,14 +11543,6 @@ html {
   float: left;
 }
 
-.highlights-content {
-  display:  inline-block;
-  width: 60%;
-  background-color: #eee;
-  float: left;
-  padding: 24px;  
-}
-
 .flex-container {
   display: flex;
   height: 100px;
