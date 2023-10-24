@@ -11545,3 +11545,7 @@ html {
   width: calc(100%-200px);
   background-color: #eee;
 }
+
+.highlights .row {
+  margin-bottom: 16px;
+}
