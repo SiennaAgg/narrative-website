@@ -11536,9 +11536,10 @@ html {
   background-color: #593a35;
 }
 
-.flex-container {
-  display: flex;
-  height: 200px;
-  flex-direction: row;
-  justify-content: space-around;
+.highlights-image {
+  background-color: #ccc;
+}
+
+.highlights-content {
+  background-color: #eee;
 }
