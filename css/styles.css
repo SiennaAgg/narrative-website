@@ -11544,8 +11544,14 @@ html {
 .highlights-content {
   width: calc(100% - 200px);
   background-color: #eee;
+  padding: 20px;
 }
 
 .highlights .row {
   margin-bottom: 16px;
+}
+
+.highlights-heading {
+  font-weight: bold;
+  font-size: 20px;
 }
