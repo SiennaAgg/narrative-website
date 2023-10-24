@@ -11500,12 +11500,12 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #593a35;
+  background-color: #a67360;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #593a35;
 }
 
 .title {
@@ -11548,4 +11548,5 @@ html {
   width: 60%;
   background-color: #eee;
   float: left;
+  padding: 24px;  
 }
