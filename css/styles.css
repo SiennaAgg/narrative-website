@@ -11553,7 +11553,7 @@ html {
 
 .flex-container {
   display: flex;
-  height: 200px;
+  height: 100px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
