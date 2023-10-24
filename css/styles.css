@@ -11538,22 +11538,7 @@ html {
 
 .flex-container {
   display: flex;
-  height: 100px;
+  height: 200px;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-}
-
-.image-container {
-  width: 100px;
-  flex-grow: 3;
-  max-width: 40%; 
-  overflow: hidden;
-}
-
-.text-container {
-  width: 200px;
-  flex-grow: 8;
-  max-width: 60%;
-  overflow: hidden;
 }
