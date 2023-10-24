@@ -11550,3 +11550,10 @@ html {
   float: left;
   padding: 24px;  
 }
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  flex-direction: row;
+  justify-content: space-around;
+}
