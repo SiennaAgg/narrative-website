@@ -11545,7 +11545,17 @@ html {
 
 .flex-container {
   display: flex;
-  height: 100px;
+  height: 200px;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
+}
+
+.image-container {
+  width: 200px;
+  flex-grow: 3;
+}
+
+.flex-container .text-container {
+  width: 400px;
+  flex-grow: 8;
 }
