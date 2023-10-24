@@ -11542,7 +11542,7 @@ html {
 }
 
 .highlights-content {
-  width: calc(100%-200px);
+  width: calc(100% - 200px);
   background-color: #eee;
 }
 
