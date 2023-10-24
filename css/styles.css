@@ -11536,26 +11536,24 @@ html {
   background-color: #593a35;
 }
 
-.highlights-image {
-  display: inline-block;
-  width: 40%;
-  background-color: grey;
-  float: left;
-}
-
 .flex-container {
   display: flex;
-  height: 200px;
+  height: 100px;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .image-container {
-  width: 200px;
+  width: 100px;
   flex-grow: 3;
+  max-width: 40%; 
+  overflow: hidden;
 }
 
-.flex-container .text-container {
-  width: 400px;
+.text-container {
+  width: 200px;
   flex-grow: 8;
+  max-width: 60%;
+  overflow: hidden;
 }
