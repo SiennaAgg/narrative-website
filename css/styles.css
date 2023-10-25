@@ -11563,17 +11563,3 @@ html {
   background-size: cover;
   -o-background-size: cover;
 }
-
-.layer {
-  background-color: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 70%;
-}
-
-.about-me-heading {
-  font-weight: bold;
-  font-size: 20px;
-}
