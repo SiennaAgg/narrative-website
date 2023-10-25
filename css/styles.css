@@ -11375,7 +11375,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: ##d9bfb0;
+  color: #d9bfb0;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11563,4 +11563,23 @@ html {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.about-me {
+  margin-top: -150px;
+  background-color: rgb(255 255 255 / 60%);
+}
+
+.about-me p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-me p.about-me-heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.page-section.about-me {
+  padding: 2rem 0;
 }
