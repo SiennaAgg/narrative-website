@@ -11583,3 +11583,9 @@ html {
 .page-section.about-me {
   padding: 2rem 0;
 }
+
+.fun-facts {
+  padding: 1rem;
+  text-align: center;
+  font-size: 20px;
+}
