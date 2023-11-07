@@ -11537,19 +11537,36 @@ html {
   color: #212529;
 }
 
+.highlights-row {
+  display: flex;
+  align-items: center;
+}
+
 .highlights-image {
-  width: 200px;
-  background-color: #ccc;
+  background-size: 100% auto;
+  width: 100%;
+  max-width: 600px;
+  min-height: 250px;
 }
-
+  
 .highlights-content {
-  width: calc(100% - 200px);
-  background-color: #fff;
-  padding: 20px;
+  width: 100%;
 }
 
-.highlights .row {
-  margin-bottom: 16px;
+.highlights-image.one {
+  background-image: url("../assets/cats/test.png");
+}
+
+.highlights-image.two {
+  background-image: url("../assets/cats/test.png");
+}
+
+.highlights-image.three {
+  background-image: url("../assets/cats/test.png");
+}
+
+.highlights-image.four {
+  background-image: url("../assets/cats/test.png");
 }
 
 .highlights-heading {
