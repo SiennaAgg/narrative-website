@@ -674,6 +674,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin-bottom: 20px;
 }
 .row > * {
   flex-shrink: 0;
@@ -11547,12 +11548,12 @@ html {
 }
 
 .highlights-image img {
-  Min-width: 300px;
-  Width: 25%
+  min-width: 300px;
+  width: 100%
 }
 
 .highlights-content {
-  flex: 5;
+  flex: 2;
   background-color: #fff;
   padding: 20px;
 }
@@ -11563,7 +11564,7 @@ html {
 }
 
 .bg-image-full {
-  background: no-repeat center center scroll;
+  background: no-repeat 80% center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
