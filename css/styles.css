@@ -11604,7 +11604,8 @@ html {
 .get-a-cat {
   margin-top: -115px;
   background-color: rgb(255 255 255 / 75%);
-  width: 63%;
+  width: 80%;
+  border-radius: 8px;
 }
 
 .get-a-cat p {
