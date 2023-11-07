@@ -11543,30 +11543,18 @@ html {
 }
 
 .highlights-image {
-  background-size: 100% auto;
-  width: 100%;
-  max-width: 600px;
-  min-height: 250px;
+  flex: 1;
 }
-  
+
+.highlights-image img {
+  Min-width: 300px;
+  Width: 25%
+}
+
 .highlights-content {
-  width: 100%;
-}
-
-.highlights-image.one {
-  background-image: url("../assets/cats/test.png");
-}
-
-.highlights-image.two {
-  background-image: url("../assets/cats/test.png");
-}
-
-.highlights-image.three {
-  background-image: url("../assets/cats/test.png");
-}
-
-.highlights-image.four {
-  background-image: url("../assets/cats/test.png");
+  flex: 5;
+  background-color: #fff;
+  padding: 20px;
 }
 
 .highlights-heading {
