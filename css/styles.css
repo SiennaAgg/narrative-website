@@ -154,7 +154,7 @@ h6, .h6 {
 }
 
 p {
-  margin-top: -15px;
+  margin-top: 0px;
   margin-bottom: 1rem;
 }
 
@@ -11566,13 +11566,14 @@ html {
 }
 
 .about-me {
-  margin-top: -90px;
+  margin-top: -100px;
   background-color: rgb(255 255 255 / 60%);
 }
 
 .about-me p {
   text-align: center;
   font-size: 20px;
+  margin-top: -10px;
 }
 
 .about-me p.about-me-heading {
@@ -11585,7 +11586,7 @@ html {
 }
 
 .fun-facts {
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   font-size: 20px;
 }
@@ -11598,4 +11599,24 @@ html {
 .responsibility-heading {
   font-size: 25px;
   font-weight: bold;
+}
+
+.get-a-cat {
+  margin-top: -115px;
+  background-color: rgb(255 255 255 / 75%);
+  width: 63%;
+}
+
+.get-a-cat p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.get-a-cat p.get-a-cat-heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.page-section.get-a-cat {
+  padding: 2rem 0;
 }
