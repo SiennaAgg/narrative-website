@@ -493,6 +493,12 @@ progress {
   font-weight: 300;
 }
 
+.lead-center {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -11607,24 +11613,37 @@ html {
   font-size: 25px;
   font-weight: bold;
 }
+.get-a-cat-bg {
+  background-color: rgb(166 115 96 / 60%);
+  color: white;
+}
+.responsibliity-text {
+  padding: 2rem 0;
+  font-size: 20px;
+}
 
-.get-a-cat {
+.spacer {
+  padding: 1rem;
+}
+
+.party-tricks {
   margin-top: -115px;
   background-color: rgb(255 255 255 / 75%);
   width: 80%;
   border-radius: 8px;
 }
 
-.get-a-cat p {
+.party-tricks p {
   text-align: center;
   font-size: 20px;
 }
 
-.get-a-cat p.get-a-cat-heading {
+.party-tricks p.party-tricks-heading {
   font-size: 25px;
   font-weight: bold;
 }
 
-.page-section.get-a-cat {
+.page-section.party-tricks {
   padding: 2rem 0;
+  background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
 }
