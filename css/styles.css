@@ -11306,6 +11306,7 @@ html {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
@@ -11554,8 +11555,10 @@ html {
 }
 
 .highlights-image img {
-  min-width: 300px;
-  width: 100%
+  margin-left: 2rem;
+  min-width: 30%;
+  padding: 1rem;
+  width: 15%
 }
 
 .highlights-content {
