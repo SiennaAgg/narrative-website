@@ -11555,14 +11555,12 @@ html {
 }
 
 .highlights-image img {
-  margin-left: 2rem;
-  min-width: 30%;
-  padding: 1rem;
-  width: 15%
+  width: 100px;
+  min-width: 80%;
 }
 
 .highlights-content {
-  flex: 2;
+  flex: 5;
   background-color: #fff;
   padding: 20px;
 }
