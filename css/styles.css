@@ -11552,6 +11552,7 @@ html {
 
 .highlights-image {
   flex: 1;
+  margin-left: -40px;
 }
 
 .highlights-image img {
