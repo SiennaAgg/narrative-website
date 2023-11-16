@@ -11541,7 +11541,7 @@ html {
 }
 
 .highlights {
-  background-color: #fff;
+  background-color: #cbc0bf;
   color: #212529;
 }
 
@@ -11561,7 +11561,7 @@ html {
 
 .highlights-content {
   flex: 5;
-  background-color: #fff;
+  background-color: #cbc0bf;
   padding-top: 20px;
 }
 
