@@ -11681,6 +11681,10 @@ html {
   color: rgb(166 115 96 / 60%);
 }
 
+.text-lb {
+  color: #889fbf;
+}
+
 .minus-margin {
   margin-top: -50px;
 }
@@ -11689,12 +11693,8 @@ html {
   margin: 2rem;
 }
 
-.add-margin-right {
+.cat-health-margin {
   margin-right: 2rem;
-}
-
-.add-margin-left {
-  margin-left: 2rem;
 }
 
 .toys-content {
@@ -11717,6 +11717,16 @@ html {
   margin-left: auto;
 }
 
-.smaller-page-section{ 
+.smaller-page-section { 
   padding: 1rem 0;
+}
+
+.cat-care-bg {
+  background-color: #3f5a7e;
+  color: white;
+}
+
+.cat-food-bg {
+  background-color: #889fbf;
+  color: white;
 }
