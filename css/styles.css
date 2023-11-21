@@ -691,6 +691,15 @@ progress {
   margin-top: var(--bs-gutter-y);
 }
 
+.row-nb {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
 .col {
   flex: 1 0 0%;
 }
@@ -11645,7 +11654,7 @@ html {
 .party-tricks {
   margin-top: -115px;
   background-color: rgb(255 255 255 / 75%);
-  width: 80%;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -11670,4 +11679,44 @@ html {
 
 .text-invert { 
   color: rgb(166 115 96 / 60%);
+}
+
+.minus-margin {
+  margin-top: -50px;
+}
+
+.add-margin {
+  margin: 2rem;
+}
+
+.add-margin-right {
+  margin-right: 2rem;
+}
+
+.add-margin-left {
+  margin-left: 2rem;
+}
+
+.toys-content {
+  flex: 5;
+  padding-top: 20px;
+}
+
+.toys-heading-left {
+  width: 60%;
+  background-color: rgb(166 115 96 / 60%);
+  color: white;
+  border-radius: 8px;
+}
+
+.toys-heading-right {
+  width: 60%;
+  background-color: rgb(166 115 96 / 60%);
+  color: white;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+.smaller-page-section{ 
+  padding: 1rem 0;
 }
