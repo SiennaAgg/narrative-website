@@ -6019,6 +6019,7 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  border-radius: 40px;
 }
 .carousel-inner::after {
   display: block;
@@ -6193,13 +6194,12 @@ textarea.form-control-lg {
 }
 
 .carousel-caption {
-  position: absolute;
   right: 15%;
   bottom: 1.25rem;
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
@@ -11703,14 +11703,14 @@ html {
 }
 
 .toys-heading-left {
-  width: 60%;
+  width: 80%;
   background-color: rgb(166 115 96 / 60%);
   color: white;
   border-radius: 8px;
 }
 
 .toys-heading-right {
-  width: 60%;
+  width: 80%;
   background-color: rgb(166 115 96 / 60%);
   color: white;
   border-radius: 8px;
@@ -11729,4 +11729,10 @@ html {
 .cat-food-bg {
   background-color: #889fbf;
   color: white;
+}
+
+.breeds-imgs {
+  width: 400px;
+  margin: auto;
+  padding-top: 2rem;
 }
