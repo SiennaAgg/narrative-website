@@ -11735,5 +11735,9 @@ html {
   width: 90%;
   max-width: 400px;
   margin: auto;
-  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.margin-left {
+  margin-left: auto;
 }
