@@ -11732,7 +11732,8 @@ html {
 }
 
 .breeds-imgs {
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   margin: auto;
   padding-top: 2rem;
 }
