@@ -51,7 +51,7 @@ main {
 }
 
 .content {
-  width: min(30vw,400px);
+  width: min(32vw,400px);
   position: absolute;
   top: 50%;
   left: 3rem;
@@ -89,6 +89,8 @@ main {
 .item:nth-of-type(2) .content {
   display: block;
   animation: show 0.75s ease-in-out 0.3s forwards;
+  background: rgb(0 0 0 / 60%);
+  padding: 16px;
 }
 
 @keyframes show {
