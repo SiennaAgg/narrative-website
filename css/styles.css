@@ -11703,14 +11703,14 @@ html {
 }
 
 .toys-heading-left {
-  width: 80%;
+  width: 92%;
   background-color: rgb(166 115 96 / 60%);
   color: white;
   border-radius: 8px;
 }
 
 .toys-heading-right {
-  width: 80%;
+  width: 92%;
   background-color: rgb(166 115 96 / 60%);
   color: white;
   border-radius: 8px;
@@ -11766,3 +11766,34 @@ html {
   transform: rotate(45deg); 
   transform-origin :100% 100%; 
 }
+
+/* Project images from Greyscale template */
+
+.projects-section {
+  padding: 1rem 0;
+}
+.projects-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
+/* End of project image styling from Greyscale template*/
