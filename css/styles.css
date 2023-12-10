@@ -11813,6 +11813,11 @@ html {
   color: white;
 }
 
+.blog1-bg-index {
+  background-color: #3f5a7e;
+  color: white;
+}
+
 .blog2-bg {
   background-color: rgb(166 115 96 / 80%);
   color: white;
@@ -11821,4 +11826,10 @@ html {
 .blog3-bg {
   background-color: rgb(166 115 96 / 90%);
   color: white;
+}
+
+.blogpost-gradient {
+  background-color: #889fbf;
+  color: white;
+  background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
 }
