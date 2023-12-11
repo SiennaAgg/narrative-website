@@ -11833,3 +11833,8 @@ html {
   color: white;
   background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
 }
+
+.padding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
