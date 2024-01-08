@@ -3052,27 +3052,27 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  background-color: #51719e;
+  border-color: #51719e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  background-color: #51719e;
+  border-color: #51719e;
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #15967d;
-  border-color: #148d75;
+  background-color: #51719e;
+  border-color: #51719e;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #51719e;
+  border-color: #51719e;
 }
 
 .btn-secondary {
@@ -11536,7 +11536,7 @@ html {
 }
 
 .blogpost {
-  background-color: #889fbf;
+  background-color: #51719e;
   color: white;
 }
 
@@ -11554,7 +11554,7 @@ html {
 }
 
 .highlights {
-  background-color: #d0aca4;
+  background-color: #51719e;
   color: #212529;
 }
 
@@ -11574,7 +11574,7 @@ html {
 
 .highlights-content {
   flex: 5;
-  background-color: #d0aca4;
+  background-color: #51719e;
   padding-top: 20px;
 }
 
@@ -11635,7 +11635,7 @@ html {
 }
 
 .get-a-cat-bg {
-  background-color: rgb(166 115 96 / 60%);
+  background-color: #51719e;
   color: white;
 }
 .responsibliity-text {
@@ -11678,11 +11678,11 @@ html {
 }
 
 .text-invert { 
-  color: rgb(166 115 96 / 60%);
+  color: #51719e;
 }
 
 .text-lb {
-  color: #889fbf;
+  color: #51719e;
 }
 
 .minus-margin {
@@ -11704,14 +11704,14 @@ html {
 
 .toys-heading-left {
   width: 92%;
-  background-color: rgb(166 115 96 / 60%);
+  background-color: #51719e;
   color: white;
   border-radius: 8px;
 }
 
 .toys-heading-right {
   width: 92%;
-  background-color: rgb(166 115 96 / 60%);
+  background-color: #51719e;
   color: white;
   border-radius: 8px;
   margin-left: auto;
@@ -11722,12 +11722,12 @@ html {
 }
 
 .cat-care-bg {
-  background-color: #3f5a7e;
+  background-color: #51719e;
   color: white;
 }
 
 .cat-food-bg {
-  background-color: #889fbf;
+  background-color: #51719e;
   color: white;
 }
 
@@ -11809,27 +11809,27 @@ html {
 }
 
 .blog1-bg {
-  background-color: rgb(166 115 96 / 70%);
+  background-color: #51719e;
   color: white;
 }
 
 .blog1-bg-index {
-  background-color: #3f5a7e;
+  background-color: #51719e;
   color: white;
 }
 
 .blog2-bg {
-  background-color: rgb(166 115 96 / 80%);
+  background-color: #51719e;
   color: white;
 }
 
 .blog3-bg {
-  background-color: rgb(166 115 96 / 90%);
+  background-color: #51719e;
   color: white;
 }
 
 .blogpost-gradient {
-  background-color: #889fbf;
+  background-color: #fff;
   color: white;
   background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
 }
@@ -11839,4 +11839,6 @@ html {
   padding-right: 2rem;
 }
 
-
+.colour-blue {
+  color: #51719e;
+}
