@@ -657,7 +657,7 @@ progress {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
@@ -1334,7 +1334,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .col-lg {
     flex: 1 0 0%;
   }
@@ -1406,7 +1406,7 @@ progress {
 
   .col-lg-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
   }
 
   .col-lg-7 {
@@ -3642,7 +3642,7 @@ textarea.form-control-lg {
     left: auto;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .dropdown-menu-lg-start {
     --bs-position: start;
   }
@@ -4083,6 +4083,7 @@ textarea.form-control-lg {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  white-space: nowrap;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -4243,7 +4244,7 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -5217,7 +5218,7 @@ textarea.form-control-lg {
     border-left-width: 0.125rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .list-group-horizontal-lg {
     flex-direction: row;
   }
@@ -5635,7 +5636,7 @@ textarea.form-control-lg {
     max-width: 300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .modal-lg,
 .modal-xl {
     max-width: 800px;
@@ -6581,7 +6582,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .sticky-lg-top {
     position: -webkit-sticky;
     position: sticky;
@@ -9296,7 +9297,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .float-lg-start {
     float: left !important;
   }
@@ -11320,7 +11321,7 @@ html {
   line-height: 2.5rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
@@ -11404,7 +11405,7 @@ html {
   background-color: #745b57;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -11467,7 +11468,7 @@ html {
   width: 15rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .masthead {
     padding-top: calc(1.5rem + 104px);
     padding-bottom: 1.5rem;
@@ -11512,7 +11513,7 @@ html {
   font-size: 2.25rem;
   line-height: 2rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
@@ -11775,7 +11776,7 @@ html {
 .projects-section .featured-text {
   padding: 2rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
@@ -11785,7 +11786,7 @@ html {
   padding: 3rem;
   font-size: 90%;
 }
-@media (min-width: 992px) {
+@media (min-width: 1100px) {
   .projects-section .project-text {
     padding: 5rem;
   }
@@ -11841,4 +11842,18 @@ html {
 
 .colour-blue {
   color: #51719e;
+}
+
+@media (min-width: 768px) {
+  .card a {
+    display: flex; align-items: center;
+    width: 100%;
+  }
+  .card-img-top {
+    padding: 1rem 1rem 1rem 2rem;
+    max-width: 300px;
+  }
+  .card-body {
+    padding: 2rem 2rem 2rem 1rem;
+  }
 }
