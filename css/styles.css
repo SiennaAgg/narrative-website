@@ -4561,7 +4561,7 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem 2rem 2rem;
 }
 
 .card-title {
@@ -4634,7 +4634,7 @@ textarea.form-control-lg {
   border-top-right-radius: 0.375rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   border-radius: 4pc;
 }
 
@@ -11323,7 +11323,7 @@ html {
 
 @media (min-width: 1100px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
@@ -11855,5 +11855,8 @@ html {
   }
   .card-body {
     padding: 2rem 2rem 2rem 1rem;
+  }
+  .col-lg-6.outside-img {
+    width: 50%;
   }
 }
