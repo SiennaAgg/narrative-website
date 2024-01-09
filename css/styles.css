@@ -11859,4 +11859,7 @@ html {
   .col-lg-6.outside-img {
     width: 50%;
   }
+  .mb-4 img.card-img-top {
+    max-width: 100%;
+  }
 }
