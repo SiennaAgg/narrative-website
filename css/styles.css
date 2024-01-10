@@ -11864,6 +11864,8 @@ html {
   }
 }
 
+/* Code for scrolling animation from : https://alvarotrigo.com/blog/css-animations-scroll/ - only changes made were to the timing for transition */
+
 .reveal{
   position: relative;
   transform: translateY(150px);
