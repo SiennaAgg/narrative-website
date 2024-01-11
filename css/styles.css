@@ -11880,3 +11880,12 @@ html {
   transform: translateY(0);
   opacity: 1;
 }
+
+.blogimages .blogimages-items {
+  cursor: default;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
