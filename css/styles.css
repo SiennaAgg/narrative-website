@@ -6097,7 +6097,7 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: black;
   text-align: center;
   background: none;
   border: 0;
@@ -6113,7 +6113,7 @@ textarea.form-control-lg {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  color: black;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
@@ -6134,7 +6134,9 @@ textarea.form-control-lg {
   height: 2rem;
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: 100% 100%;
+  background-size: 60% 60%;
+  background-color: black;
+  border-radius: 2rem;
 }
 
 /* rtl:options: {
@@ -11888,4 +11890,10 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+}
+
+.carousel-bg {
+  background-color: #51719e;
+  color: white;
+  padding: 1rem;
 }
